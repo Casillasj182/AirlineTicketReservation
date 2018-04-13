@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Airline Reservation System</string>
+    <string name="username">Please enter username</string>
+    <string name="Create_Account">Create Account</string>
+    <string name="Manage_Account">Manage Account</string>
+    <string name="Reserve_Seat">Reserve Seat</string>
+    <string name="add_flights">Add Flights</string>
+    <string name="flight_List">Add Flights</string>
+    <string name="reservation">Add Flights</string>
+
+</resources>

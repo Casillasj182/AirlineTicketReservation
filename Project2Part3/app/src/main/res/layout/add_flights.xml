@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.joelcasillas.project2part3.AddFlights">
+
+
+    <EditText
+        android:id="@+id/ftext"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter Flight Number">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ftext2"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter Departure City">
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/ftext3"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter Arrival City">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ftext4"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter Departure Time">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ftext5"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter Flight Capacity">
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/ftext6"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter Price">
+
+
+    </EditText>
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Menu" />
+
+
+
+    <Button
+        android:id="@+id/confirmbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Flight" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Flights Added" />
+
+
+
+</LinearLayout>

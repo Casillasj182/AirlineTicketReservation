@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joelcasillas.project2part3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Airline Reservation System"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AirlineTicketReservationSystem"
+            android:label="Airline Ticket Reservation System">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateAccount">
+            android:label="Airline Ticket Reservation System">
+            android:name="com.example.joelcasillas.project2part3.CreateAccount">
+        </activity>
+        <activity android:name=".ManageSystem">
+            android:label="Airline Ticket Reservation System">
+        </activity>
+        <activity android:name=".ReserveSeat">
+            android:label="Airline Ticket Reservation System">
+        </activity>
+        <activity android:name=".AddFlights"></activity>
+        <activity android:name=".flightList"></activity>
+        <activity android:name=".Reservation"></activity>
+
+    </application>
+
+</manifest>
